@@ -1,5 +1,9 @@
+import { Navigate } from "react-router-dom"
+
 export default function HomePage() {
     return (
-        <h1>Home Page</h1>
+        <div>
+            <Navigate to="/login" />
+        </div>
     )
 }

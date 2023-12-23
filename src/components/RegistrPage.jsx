@@ -1,5 +1,11 @@
 export default function RegistrPage() {
     return (
-        <h1>Registration Page</h1>
-    )
+        <div>
+            <h1>Registration</h1>
+
+            <p>
+                Already have an account?  <Link to="/login">Sign in</Link>
+            </p>
+        </div>
+    );
 }
