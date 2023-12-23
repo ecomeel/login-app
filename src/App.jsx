@@ -2,9 +2,9 @@ import { Routes, Route } from "react-router-dom";
 
 import "./App.scss";
 
-import HomePage from "./components/Homepage";
-import LoginPage from "./components/LoginPage";
-import RegistrPage from "./components/RegistrPage";
+import HomePage from "./pages/HomePage";
+import LoginPage from "./pages/LoginPage";
+import RegistrPage from "./pages/RegistrPage";
 
 function App() {
     return (
