@@ -1,17 +1,17 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from "react";
+import { Link } from "react-router-dom";
 
-import Login from '../components/Login'
+import Login from "../components/Login";
 
 export default function LoginPage() {
-  return (
-    <div>
-        <h1>Login</h1>
-        <Login />
+    return (
+        <div>
+            <h1>Login</h1>
+            <Login />
 
-        <p>
-            Or <Link to="/registration">Registration</Link>
-        </p>
-    </div>
-  )
+            <p>
+                Or <Link to="/registration">Registration</Link>
+            </p>
+        </div>
+    );
 }

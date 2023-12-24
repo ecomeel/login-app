@@ -1,11 +1,13 @@
-body, html {
-  background-color: rgb(45, 54, 61);
-  color: #fff;
-  font-size: 20px;
-  padding: 10px;
+$background : rgb(45, 54, 61);
+
+:root {
+    background-color: $background;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px;
 }
 
 a {
-  color: white;
-  text-decoration: underline;
+    color: white;
+    text-decoration: underline;
 }
